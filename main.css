@@ -1,0 +1,49 @@
+/* COLOR SCHEME
+dp (dark pink) = #9f1d34
+salmon = #e7626a
+lp (light-ish pink) = #f1988f
+peach = #fccca5
+lo (light orange) = #fce2b6 */
+
+/* FONTS
+Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
+
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.btn-nav {
+    background-color:#E7626A;
+    color:white;
+}
+
+.btn-nav:hover {
+    color:#9f1d34;
+}
+
+.bg-lp {
+    background-color:#f1988f;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    font-weight:bold;
+    color:white;
+}
+/*   Font Items   */
+.text{
+    font-family: "Comic Sans MS";
+    color: white;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+.underline{
+    font-style: underline;
+}
