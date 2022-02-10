@@ -8,31 +8,16 @@ lo (light orange) = #fce2b6 */
 /* FONTS
 Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 
+/* FULL SITE */
 * {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.btn-nav {
-    background-color:#E7626A;
-    color:white;
-}
-
-.btn-nav:hover {
-    color:#9f1d34;
-}
-
+/* color items */
 .bg-lp {
     background-color:#f1988f;
 }
 
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    font-weight:bold;
-    color:white;
-}
 /*   Font Items   */
 .text{
     font-family: "Comic Sans MS";
@@ -46,4 +31,43 @@ Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 }
 .underline{
     font-style: underline;
+}
+.right{
+    text-align: right;
+}
+/*  end font items  */
+
+
+/* NAVBAR */
+
+.nav-logo{
+    height:80px;
+    padding: 0px;
+    margin-left:8px;
+}
+
+.btn-nav {
+    background-color:#E7626A;
+    color:white;
+    font-size:130%;
+    margin-right:12px;
+}
+
+.btn-nav:hover {
+    color:#9f1d34;
+}
+
+.nav-link {
+    color: white;
+    font-size:130%;
+}
+
+.nav-link:hover {
+    font-weight:bold;
+    color:white;
+}
+
+.nav-item {
+    padding-left:25px;
+    padding-right:25px;
 }
