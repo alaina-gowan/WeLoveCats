@@ -5,6 +5,9 @@ lp (light-ish pink) = #f1988f
 peach = #fccca5
 lo (light orange) = #fce2b6 */
 
+/*   PLEASE USE THE CLASS ROUNDEED ON EVERY SINGLE IMAGE 
+EXCEPT FOR THE CAROUSELL PLEASE GOD PLEASE    */
+
 /* FONTS
 Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 
@@ -12,11 +15,28 @@ Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 * {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+body{
+    background-color:#fce2b6;
+}
 
 /* color items */
 .bg-lp {
     background-color:#f1988f;
 }
+.bg-salmon{
+    background-color:#E7626A;
+}
+.bg-dp{
+    background-color:#9f1d34;
+}
+.salmon{
+    color:#E7626A;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 
 /*   Font Items   */
 .text{
@@ -35,15 +55,20 @@ Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 .right{
     text-align: right;
 }
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
 /*  end font items  */
 
 
 /* NAVBAR */
 
 .nav-logo{
-    height:80px;
+    height:62px;
     padding: 0px;
-    margin-left:8px;
 }
 
 .btn-nav {
@@ -71,3 +96,12 @@ Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
     padding-left:25px;
     padding-right:25px;
 }
+
+/* SHOP */
+.product-card .row {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+
+
