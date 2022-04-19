@@ -12,11 +12,11 @@ EXCEPT FOR THE CAROUSELL PLEASE GOD PLEASE    */
 Comic Sans = font-family: "Comic Sans MS", cursive, sans-serif; */
 
 /* FULL SITE */
-
-
+* {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 body{
     background-color:#fce2b6;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* color items */
@@ -43,9 +43,6 @@ body{
     font-family: "Comic Sans MS";
     color: white;
 }
-.text-no-color{
-    font-family: "Comic Sans MS";
-}
 .italic{
     font-style: italic;
 }
@@ -70,7 +67,7 @@ body{
 /* NAVBAR */
 
 .nav-logo{
-    height:70px;
+    height:62px;
     padding: 0px;
 }
 
@@ -133,17 +130,4 @@ h1 {
     width:78%;
     margin-top:0;
     margin-bottom:1.5rem;
-}
-
-/* SIGNUP PAGE */
-.signup-form{
-    width:80%;
-    height:500px;
-    margin-top:500px;
-}
-.signup-con
-
-/* FOOTER */
-footer {
-    width:100%;
 }
